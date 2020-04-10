@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-exercice2',
@@ -10,6 +10,10 @@ export class Exercice2Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public uneFonction(e: any): void {
+      console.log(e.type);
   }
 
 }

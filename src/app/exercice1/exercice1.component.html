@@ -1,0 +1,16 @@
+<h2> EXERCICE 1</h2>
+<p>
+    Liaison de propriété : entrez un mot de passe <input [type] = "inputType">
+</p>
+
+<hr>
+    Liaison d'évènement : passez la souris sur le carré
+    <div class="square1" [style.backgroundColor] = "color"
+        (mouseleave)="changeColor('blue')"
+        (mouseenter)="changeColor('red')">
+    </div>
+
+<hr>
+<p>
+    interpolation de variable - la valeur de attr1 est : {{obj.attr1}}
+</p>

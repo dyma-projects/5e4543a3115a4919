@@ -1,0 +1,14 @@
+<h2> EXERCICE 3</h2>
+<p *ngIf="status">
+    Paragraphe 1
+</p>
+
+<p *ngIf="!status">
+    Paragraphe 2
+</p>
+
+<p>
+    Status = {{status}}
+</p>
+
+<button (click) ="status=!status">Cliquez moi</button>
